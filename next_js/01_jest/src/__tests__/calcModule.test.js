@@ -4,20 +4,33 @@
 
 import {divide, minus, multiply, plus} from "@/app/calcModule";
 
-describe("사직연산테스트", function (){
-    test("더하기 모듈 테스트",function(){
-        expect(plus(10,30)).toBe(40);
+describe("사칙연산 통합 테스트(정상, 에러)", function (){
+    describe("사직연산테스트", function (){
+        test("더하기 모듈 테스트",function(){
+            expect(plus(10,30)).toBe(40);
+        });
+        test("빼기 모듈 테스트",function(){
+            expect(minus(40,10)).toBe(30);
+        });
+        test("곱하기 모듈 테스트",function(){
+            expect(multiply(5,3)).toBe(15);
+        });
+        test("나누기 모듈 테스트",function(){
+            expect(divide(100,10)).toBe(10);
+        });
     });
-    test("빼기 모듈 테스트",function(){
-        expect(minus(40,10)).toBe(30);
+
+    describe("사칙연산 에러 테스트",function(){
+        test("A보다 B값이 클 경우",function (){
+            // throws 사용시 실험 함수를 한번 더 감싸 준다.
+            expect(() => minus(10, 30)).toThrow();
+        })
+
+        test("0으로 나누기 시도", function(){
+            expect(() => divide(20, 0)).toThrow();
+        })
     });
-    test("곱하기 모듈 테스트",function(){
-        expect(multiply(5,3)).toBe(15);
-    });
-    test("나누기 모듈 테스트",function(){
-        expect(divide(100,10)).toBe(10);
-    });
-});
+})
 
 /*
     toBe() : 숫자, 문자, 블리언 타입의 값이 일치.
