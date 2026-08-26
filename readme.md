@@ -6,3 +6,14 @@ git inti
 # 3. 변경한 파일 staged
 # git add [원하는 파일명]
 git add readme.md
+# 변경사항 모두
+git add .
+
+# 상태 확인
+git status
+
+# commit 하기
+git commit -m "message"
+
+# commit의 상태 확인
+git log --graph --oneline --all
