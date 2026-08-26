@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0961ca3-6743-475b-ab7f-1bc81b5399a2" name="Changes" comment="" />
+    <list default="true" id="c0961ca3-6743-475b-ab7f-1bc81b5399a2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -26,67 +32,67 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000102552513968" />
-      <entry key="S2" value="1.0841187240690864" />
-      <entry key="S5" value="1.662611537136807" />
-      <entry key="S10" value="2.446328595639487" />
-      <entry key="S30" value="5.094841616212057" />
-      <entry key="S60" value="8.1542081133162" />
-      <entry key="M2" value="11.131949377989557" />
-      <entry key="M5" value="13.756160725286882" />
-      <entry key="M10" value="14.821251518548742" />
-      <entry key="M15" value="15.200922309057791" />
-      <entry key="M30" value="15.593676889806522" />
-      <entry key="H1" value="15.795111359049805" />
-      <entry key="H2" value="15.897119965927592" />
-      <entry key="H4" value="15.948450557695997" />
-      <entry key="D1" value="15.991393185964213" />
-      <entry key="W1" value="15.99877008135172" />
+      <entry key="MS100" value="1.6588259592259116E-109" />
+      <entry key="MS500" value="1.857421388113303E-22" />
+      <entry key="S2" value="7.396390415167317E-6" />
+      <entry key="S5" value="0.02078226443321743" />
+      <entry key="S10" value="0.3142238191867151" />
+      <entry key="S30" value="2.4971444242607337" />
+      <entry key="S60" value="6.710775159678418" />
+      <entry key="M2" value="15.765273245889075" />
+      <entry key="M5" value="38.02516855539047" />
+      <entry key="M10" value="68.40176882191258" />
+      <entry key="M15" value="91.53007989456788" />
+      <entry key="M30" value="131.73575569915872" />
+      <entry key="H1" value="163.20265241866056" />
+      <entry key="H2" value="183.24692167285" />
+      <entry key="H4" value="194.61297550423822" />
+      <entry key="D1" value="204.86018680158804" />
+      <entry key="W1" value="206.69240745079023" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="2.0171023192144324E-53" />
-      <entry key="MS500" value="3.435732552465476E-11" />
-      <entry key="S2" value="0.004806794373599366" />
-      <entry key="S5" value="0.22619917551270713" />
-      <entry key="S10" value="0.8710670506283682" />
-      <entry key="S30" value="3.490370893763185" />
-      <entry key="S60" value="6.429888969016684" />
-      <entry key="M2" value="9.290909037742859" />
-      <entry key="M5" value="11.824059696033359" />
-      <entry key="M10" value="12.855771895563906" />
-      <entry key="M15" value="13.224047388376787" />
-      <entry key="M30" value="13.605290828477399" />
-      <entry key="H1" value="13.80093031186177" />
-      <entry key="H2" value="13.900032325294177" />
-      <entry key="H4" value="13.949907443709677" />
-      <entry key="D1" value="13.991636097164278" />
-      <entry key="W1" value="13.998804785307694" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000235279582" />
+      <entry key="S2" value="1.0143677463651415" />
+      <entry key="S5" value="1.2588277035142295" />
+      <entry key="S10" value="1.790268933947408" />
+      <entry key="S30" value="3.460508356269532" />
+      <entry key="S60" value="5.155931069378252" />
+      <entry key="M2" value="7.365096978915555" />
+      <entry key="M5" value="12.300203941366007" />
+      <entry key="M10" value="19.137109649867046" />
+      <entry key="M15" value="24.38573182154256" />
+      <entry key="M30" value="33.99375471036719" />
+      <entry key="H1" value="42.039711063196194" />
+      <entry key="H2" value="47.40683808056884" />
+      <entry key="H4" value="50.530931745618744" />
+      <entry key="D1" value="53.396018056790545" />
+      <entry key="W1" value="53.91305923683288" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9265880618903709" />
-      <entry key="MS500" value="0.9848710160091946" />
-      <entry key="S2" value="1.0668655327819556" />
-      <entry key="S5" value="1.8047019611966841" />
-      <entry key="S10" value="3.206517769791333" />
-      <entry key="S30" value="8.467698022634334" />
-      <entry key="S60" value="14.479441190830649" />
-      <entry key="M2" value="20.348039535249832" />
-      <entry key="M5" value="25.54231656217841" />
-      <entry key="M10" value="27.656447247929282" />
-      <entry key="M15" value="28.41086578702998" />
-      <entry key="M30" value="29.191715744750052" />
-      <entry key="H1" value="29.592364367413687" />
-      <entry key="H2" value="29.795300642684243" />
-      <entry key="H4" value="29.897428906760723" />
-      <entry key="D1" value="29.982873977993766" />
-      <entry key="W1" value="29.997552669019935" />
+      <entry key="MS100" value="3.7896341083172744E-27" />
+      <entry key="MS500" value="5.198644311707412E-6" />
+      <entry key="S2" value="0.055520153854161064" />
+      <entry key="S5" value="0.5166026548409798" />
+      <entry key="S10" value="1.5305374656575326" />
+      <entry key="S30" value="5.592473509658081" />
+      <entry key="S60" value="11.600985302067459" />
+      <entry key="M2" value="22.94061426255119" />
+      <entry key="M5" value="50.190060725767665" />
+      <entry key="M10" value="87.42294706037481" />
+      <entry key="M15" value="115.81377571265011" />
+      <entry key="M30" value="165.6573582978356" />
+      <entry key="H1" value="205.19816839856583" />
+      <entry key="H2" value="230.6291035395245" />
+      <entry key="H4" value="245.13085766402224" />
+      <entry key="D1" value="258.25392188555014" />
+      <entry key="W1" value="260.6051377938707" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3IR2cDnm9fULCWDJhoSBqCl23wE" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -106,6 +112,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
+    "js.debugger.nextJs.config.created.client": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -117,7 +124,10 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -143,7 +153,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787713137341</updated>
-      <workItem from="1787713138334" duration="911000" />
+      <workItem from="1787713138334" duration="1623000" />
+      <workItem from="1787718648612" duration="2045000" />
     </task>
     <servers />
   </component>
