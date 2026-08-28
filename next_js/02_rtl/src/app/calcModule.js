@@ -1,0 +1,27 @@
+import {error} from "next/dist/build/output/log";
+
+export function plus(a,b){
+    return a + b;
+}
+
+export function minus(a,b){
+
+    if(b > a){
+        throw new Error("뺄셈의 값은 0보다 커야 합니다.");
+    }
+
+    return a - b;
+}
+
+export function multiply(a,b){
+    return a * b;
+}
+
+export function divide(a,b){
+
+    if(b===0){
+        throw new error("0으로 나눌수 없습니다.");
+    }
+
+    return a / b;
+}
