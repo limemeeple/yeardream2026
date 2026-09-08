@@ -1,0 +1,29 @@
+### 1. 글쓰기
+POST http://localhost:3000/write
+Content-Type: application/json
+
+{
+  "id": "admin",
+  "title": "테스트3입니다.",
+  "content": "이건 테스트3 목적으로 작성하였습니다."
+}
+
+### 2. 리스트 가져오기
+GET http://localhost:3000/list
+Content-Type: application/json
+
+### 3. 상세 조회하기
+GET http://localhost:3000/detail/3
+Content-Type: application/json
+
+### 4. 수정하기
+POST http://localhost:3000/update/3
+Content-Type: application/json
+
+{
+  "title": "3번 타이틀 수정합니다."
+}
+
+### 5. 삭제하기
+POST http://localhost:3000/del/3
+Content-Type: application/json

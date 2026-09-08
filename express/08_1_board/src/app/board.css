@@ -1,0 +1,72 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width:100%;
+}
+
+table tr{
+    border: 1px solid black;
+}
+
+table td .subject{
+    width: 70%;
+}
+
+.btnRigth{
+    text-align: right;
+}
+
+.writeBtn{
+    width:100px;
+    height:30px;
+    margin-bottom: 5px;
+}
+
+.writeTable{
+    width:40%;
+}
+
+.writeTable input{
+    width: 92%;
+}
+
+.writeTable textarea{
+    width: 93%;
+    height: 300px;
+    resize: none;
+}
+
+.btnCenter{
+    width:40%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btnCenter button{
+    margin-left: 10px;
+    width: 20%;
+    height: 30px;
+}
+
+.detailTable{
+    width:40%;
+}
+
+.detailTable td{
+    text-align:left;
+}
+
+.detailTable .textarea{
+    height: 200px;
+}
+
+.loginTable{
+    width: 40%;
+    height: 120px;
+}
+
+.loginTable input{
+    width: 92%;
+    height: 20px;
+}
