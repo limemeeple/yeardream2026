@@ -1,0 +1,6 @@
+# web Framework & srver
+fastapi
+uvicorn
+
+# upload
+python-multipart
